@@ -1,6 +1,6 @@
 # Tribu brand
 
-The seal of acceptance: a stepped T inside the coin SUNAT returns. The clay diamond is the dot of the `i` — the one warm detail.
+The seal of acceptance: a stepped T inside the double ring of a rubber stamp. The capsule is that seal stretched to hold the name, and the letters share the T's height, weight and curves.
 
 <p align="center">
   <picture>
@@ -13,7 +13,7 @@ These are the canonical brand files. [Guidelines](guidelines.md) explain how to 
 
 ## Logo
 
-### Horizontal — primary
+### Capsule — primary
 
 <img src="logo/tribu-horizontal.svg" alt="Tribu horizontal lockup" width="420">
 
@@ -27,11 +27,11 @@ These are the canonical brand files. [Guidelines](guidelines.md) explain how to 
 
 | Version | File | Use |
 |---|---|---|
-| Horizontal | `logo/tribu-horizontal.svg` | README, website header, docs, email signature |
-| Stacked | `logo/tribu-stacked.svg` | Square or narrow spaces, covers, stickers |
+| Capsule (horizontal) | `logo/tribu-horizontal.svg` | README, website header, docs, email signature |
+| Stacked | `logo/tribu-stacked.svg` | Seal over the wordmark, for square or narrow spaces, covers, stickers |
 | Symbol | `logo/tribu-symbol.svg` | App icon, avatar, favicon, one-line contexts |
-| Wordmark | `logo/tribu-wordmark.svg` | When the seal is already present nearby |
-| Small symbol | `logo/tribu-symbol-small.svg` | 16–23 px, with a bolder T hole |
+| Wordmark | `logo/tribu-wordmark.svg` | The name on its own, when the seal is used apart or is already nearby |
+| Small symbol | `logo/tribu-symbol-small.svg` | 16–23 px; no inner ring and a bolder T |
 
 `logo/variants/` holds black, white, mono, square, favicon and app-icon SVGs, plus PNGs.
 
@@ -40,7 +40,7 @@ These are the canonical brand files. [Guidelines](guidelines.md) explain how to 
 | Name | HEX | Role |
 |---|---|---|
 | Seal | `#0F4C46` | Primary; symbol, wordmark, large surfaces |
-| Clay | `#B5502F` | Accent; the i-diamond, highlights, links |
+| Clay | `#B5502F` | Accent; highlights, links |
 | Ink | `#14211F` | Body text, dark surfaces |
 | Sand | `#F4EFE7` | Warm paper background, app icon tile |
 | White | `#FFFFFF` | Paper, reversed text |
@@ -82,9 +82,9 @@ The `tribu-pe/.github` repository uses the same header in `profile/README.md`.
 brand/
   logo/
     tribu-symbol.svg          standard symbol (Seal)
-    tribu-symbol-small.svg    bolder T hole, for 16–23 px
+    tribu-symbol-small.svg    no inner ring and a bolder T, for 16–23 px
     tribu-wordmark.svg        wordmark only
-    tribu-horizontal.svg      primary lockup
+    tribu-horizontal.svg      capsule, the primary lockup
     tribu-stacked.svg         stacked lockup
     variants/                 black, white, mono, square, favicon, app icon, PNGs
   web/                        favicon.ico/svg, apple-touch, 192/512, maskable, manifest, head snippet

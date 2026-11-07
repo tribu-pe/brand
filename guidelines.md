@@ -2,22 +2,22 @@
 
 ## 1. The logo
 
-**Idea:** the seal of acceptance. SUNAT answers an accepted Document with a CDR; the mark turns that stamp into the brand. The stepped T reads as an Andean chakana without drawing one literally, and the clay diamond is the dot of the `i` — the one warm detail.
+**Idea:** the seal of acceptance. SUNAT answers an accepted Document with a CDR; the mark turns that stamp into the brand. The double ring is the rubber stamp, the T has one Andean step under its bar, and the capsule is the same seal stretched to hold the name. The seal and the wordmark work apart because they share the T's height, stem and curves.
 
 **Versions**
 
 | Version | Use |
 |---|---|
-| Horizontal (`tribu-horizontal.svg`) | Primary. README, website header, docs, email signature |
-| Stacked (`tribu-stacked.svg`) | Square or narrow spaces, covers, stickers |
+| Capsule (`tribu-horizontal.svg`) | Primary. README, website header, docs, email signature |
+| Stacked (`tribu-stacked.svg`) | Seal over the wordmark. Square or narrow spaces, covers, stickers |
 | Symbol (`tribu-symbol.svg`) | App icon, avatar, favicon, one-line contexts |
-| Wordmark (`tribu-wordmark.svg`) | When the seal is already present nearby |
+| Wordmark (`tribu-wordmark.svg`) | The name on its own, when the seal is used apart or is already nearby |
 
 All masters are SVG, outlined, and have no live text. RGB files for screens; for print, use the SVG or a PDF exported from it and proof the CMYK values below.
 
 ## 2. Clear space
 
-Keep **1 × the width of the T stem** clear on every side. In the 256-unit master that is **40 units** (15.6% of the symbol's height). The clear space scales with the logo; never use a fixed millimetre value.
+Keep **1 × the width of the wordmark's stem** clear on every side. In the capsule master that is **32 units** (12.5% of its height). The clear space scales with the logo; never use a fixed millimetre value.
 
 Do not place text, rules, other logos, or a crop edge inside that zone. On a busy photo, put the lockup in a solid Sand container instead of shrinking the clear space.
 
@@ -25,20 +25,20 @@ Do not place text, rules, other logos, or a crop edge inside that zone. On a bus
 
 | Version | Screen | Print |
 |---|---|---|
-| Horizontal | 120 px wide | 35 mm wide |
+| Capsule | 120 px wide | 35 mm wide |
 | Stacked | 96 px wide | 28 mm wide |
 | Wordmark | 80 px wide | 24 mm wide |
 | Symbol | 24 px | 8 mm |
 | Symbol, small cut | 16 px | 5 mm |
 
-Below 24 px use `tribu-symbol-small.svg` (or `web/favicon.svg`), where the T hole is drawn bolder. Do not use the horizontal or stacked lockup below its minimum; switch to the symbol.
+Below 24 px use `tribu-symbol-small.svg` (or `web/favicon.svg`), which drops the inner ring and draws the T bolder. Do not use the capsule or stacked lockup below its minimum; switch to the symbol.
 
 ## 4. Colour
 
 | Name | HEX | RGB | CMYK (approx.) | Role |
 |---|---|---|---|---|
 | Seal | `#0F4C46` | 15 76 70 | 80 0 8 70 | Primary; symbol, wordmark, large surfaces |
-| Clay | `#B5502F` | 181 80 47 | 0 56 74 29 | Accent; the i-diamond, highlights, links |
+| Clay | `#B5502F` | 181 80 47 | 0 56 74 29 | Accent; highlights, links |
 | Ink | `#14211F` | 20 33 31 | 39 0 6 87 | Body text, dark surfaces |
 | Sand | `#F4EFE7` | 244 239 231 | 0 2 5 4 | Warm paper background, app icon tile |
 | White | `#FFFFFF` | 255 255 255 | 0 0 0 0 | Paper, reversed text |
@@ -59,9 +59,9 @@ Do not put Seal on Clay; the contrast is too low. Do not use Clay as the backgro
 
 ## 5. Typography
 
-- **Wordmark:** Manrope 700, outlined in the SVG. You do not need the font to use the logo.
+- **Wordmark:** custom capitals drawn for Tribu, outlined in the SVG. They are not a font, so there is nothing to install.
 - **Headlines / UI:** Manrope 600–700. **Body:** the system sans stack: `ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif`.
-- **Licence:** Manrope is SIL Open Font License 1.1. The wordmark is a custom outline and is not redistributed as a font.
+- **Licence:** Manrope is SIL Open Font License 1.1.
 
 Never retype the wordmark; always place the SVG. If Manrope is unavailable in a document, use the system stack for text, but keep the wordmark as artwork.
 
@@ -69,10 +69,10 @@ Never retype the wordmark; always place the SVG. If Manrope is unavailable in a 
 
 - Don't stretch, squash, rotate, skew, or crop the lockup.
 - Don't add outlines, shadows, glows, gradients, bevels, or transparency.
-- Don't change the T hole, the step at its foot, or the diamond i-dot.
-- Don't replace the diamond with a round or square dot.
-- Don't recolour outside the palette; don't make the diamond a second colour in the one-colour versions.
-- Don't rearrange the symbol and wordmark, or resize one without the other.
+- Don't change the T, its step, or the inner ring.
+- Don't recolour outside the palette.
+- Don't redraw the stacked lockup or resize one of its parts without the other.
+- Don't put the seal inside the capsule or next to it; the capsule already carries the T.
 - Don't place the seal on a busy photo without a container.
 - Don't rebuild the wordmark by typing it in Manrope or any other font.
 
@@ -82,7 +82,7 @@ The canonical files live in the public [`tribu-pe/brand`](https://github.com/tri
 
 - **Organization avatar:** `github/avatar-512.png`. Upload it in the organization profile settings. GitHub crops it to a circle.
 - **Repository social preview:** `github/social-tribu-1280x640.png` for `tribu-pe/tribu` and `github/social-pdf-1280x640.png` for `tribu-pe/pdf`. GitHub recommends 1280×640, PNG/JPG, under 1 MB. Upload it in each repository's settings.
-- **README header:** place the horizontal lockup at 320 px above the H1, with the white variant for dark mode:
+- **README header:** place the capsule at 320 px above the H1, with the white variant for dark mode:
 
 ```html
 <p align="center">
@@ -101,9 +101,9 @@ The `tribu-pe/.github` repository uses the same header in `profile/README.md`.
 brand/
   logo/
     tribu-symbol.svg          standard symbol (Seal)
-    tribu-symbol-small.svg    bolder T hole, for 16–23 px
+    tribu-symbol-small.svg    no inner ring and a bolder T, for 16–23 px
     tribu-wordmark.svg        wordmark only
-    tribu-horizontal.svg      primary lockup
+    tribu-horizontal.svg      capsule, the primary lockup
     tribu-stacked.svg         stacked lockup
     variants/                 black, white, mono, square, favicon, app icon, PNGs
   web/                        favicon.ico/svg, apple-touch, 192/512, maskable, manifest, head snippet
