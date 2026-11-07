@@ -1,0 +1,49 @@
+{
+  "brand": "Tribu",
+  "tagline": "SUNAT invoicing, one call",
+  "brief": "A TypeScript SDK that issues Peruvian electronic payment documents to SUNAT. It should feel trustworthy, simple, warm and Peruvian — closer to a seal of acceptance than to a fintech dashboard.",
+  "adjectives": [
+    "trustworthy",
+    "simple",
+    "warm",
+    "Peruvian"
+  ],
+  "criteria": "Reads at 16 px, works in one colour, feels like a stamp of acceptance, and avoids the blue fintech and generic invoice-icon clichés.",
+  "industry": "software",
+  "nav": [
+    "Docs",
+    "Guides",
+    "API"
+  ],
+  "brand_color": "#0F4C46",
+  "tile_color": "#F4EFE7",
+  "greyscale": false,
+  "final": true,
+  "designer": "Tribu",
+  "concepts": [
+    {
+      "name": "Sello",
+      "symbol": "../logo/tribu-symbol.svg",
+      "lockup": "../logo/tribu-horizontal.svg",
+      "stacked": "../logo/tribu-stacked.svg",
+      "avatar": "../logo/variants/tribu-symbol-app-icon.svg",
+      "idea": "The seal of acceptance: a stepped T inside the coin SUNAT returns.",
+      "rationale": [
+        "Turns the CDR into the brand: a document accepted",
+        "The stepped foot reads as a chakana, not a generic T",
+        "Holds at 16 px and works as a favicon; the clay i-dot adds warmth"
+      ],
+      "symbol_on_tile": "../logo/tribu-symbol.svg",
+      "symbol_on_dark": "../logo/variants/tribu-symbol-white.svg",
+      "lockup_on_dark": "../logo/variants/tribu-horizontal-white.svg",
+      "stacked_on_dark": "../logo/variants/tribu-stacked-white.svg"
+    }
+  ],
+  "recommendation": "Sello — the seal of acceptance. A stepped T inside a coin, legible at 16 px, at home in a README, a browser tab or a printed receipt.",
+  "next_steps": [
+    "Use the horizontal lockup in the README and docs",
+    "Ship the web icon set",
+    "Keep the seal for the npm and GitHub avatar",
+    "Extend the clay diamond into section markers and diagrams"
+  ]
+}
