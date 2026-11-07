@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title">
-  <title id="title">Tribu symbol, small size</title>
-  <path fill="#0F4C46" fill-rule="evenodd" d="M128 24 A104 104 0 1 1 127.9 24 Z M80 68 H176 V104 H152 V168 H164 V188 H92 V168 H104 V104 H80 Z"/>
+  <title id="title">Tribu symbol, small cut</title>
+  <path fill="#0F4C46" fill-rule="evenodd" d="M128 24A104 104 0 1 1 127.9 24ZM70.80 64.40L185.20 64.40L185.20 97.40L156.60 97.40L156.60 119.40L145.60 119.40L145.60 187.60L110.40 187.60L110.40 119.40L99.40 119.40L99.40 97.40L70.80 97.40Z"/>
 </svg>
