@@ -27,11 +27,11 @@
       "lockup": "../logo/tribu-horizontal.svg",
       "stacked": "../logo/tribu-stacked.svg",
       "avatar": "../logo/variants/tribu-symbol-app-icon.svg",
-      "idea": "The seal of acceptance: a stepped T inside the coin SUNAT returns.",
+      "idea": "The seal of acceptance: a stepped T inside the double ring of a rubber stamp.",
       "rationale": [
         "Turns the CDR into the brand: a document accepted",
-        "The stepped foot reads as a chakana, not a generic T",
-        "Holds at 16 px and works as a favicon; the clay i-dot adds warmth"
+        "The double ring is a real stamp; the capsule stretches it to hold the name",
+        "Seal and wordmark work apart: they share the T's height, stem and curves"
       ],
       "symbol_on_tile": "../logo/tribu-symbol.svg",
       "symbol_on_dark": "../logo/variants/tribu-symbol-white.svg",
@@ -39,11 +39,11 @@
       "stacked_on_dark": "../logo/variants/tribu-stacked-white.svg"
     }
   ],
-  "recommendation": "Sello — the seal of acceptance. A stepped T inside a coin, legible at 16 px, at home in a README, a browser tab or a printed receipt.",
+  "recommendation": "Sello — the seal of acceptance. A double-ring stamp whose capsule carries the name, at home in a README, a browser tab or a printed receipt.",
   "next_steps": [
-    "Use the horizontal lockup in the README and docs",
+    "Use the capsule in the README and docs",
     "Ship the web icon set",
     "Keep the seal for the npm and GitHub avatar",
-    "Extend the clay diamond into section markers and diagrams"
+    "Use clay sparingly for highlights and links"
   ]
 }
