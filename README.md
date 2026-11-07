@@ -4,7 +4,7 @@ The seal of acceptance: a stepped T inside the coin SUNAT returns. The clay diam
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="logo/tribu-horizontal-white.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="logo/variants/tribu-horizontal-white.svg">
     <img src="logo/tribu-horizontal.svg" alt="Tribu" width="420">
   </picture>
 </p>
@@ -60,7 +60,7 @@ The README header uses the horizontal lockup at 320 px, with the white variant f
 ```html
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tribu-pe/brand/main/logo/tribu-horizontal-white.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tribu-pe/brand/main/logo/variants/tribu-horizontal-white.svg">
     <img src="https://raw.githubusercontent.com/tribu-pe/brand/main/logo/variants/tribu-horizontal-color-1200.png" alt="Tribu" width="320">
   </picture>
 </p>
